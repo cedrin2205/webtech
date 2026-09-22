@@ -3,13 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Links</title>
+    <style>
+        .top{
+            display: flex;
+            justify-content: space-around;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .middle {
+            display: flex;
+            margin-top: 100px;
+            justify-content: space-around;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        button {
+            border: none;
+            padding: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 0px 5px;
+            cursor: pointer;
+            
+        }
+
+        .yt {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            transition-duration: 0.4s;
+        }
+
+        .yt:hover {
+            background-color: darkred;
+        }
+        
+    </style>
 </head>
 <body>
-    <h2>
-        <a href="index.html">Home</a>
-        | <a href="about.html">About</a> 
-        | <a href="contact.html">Contact</a>
-    </h2>
+    <div class="top">
+        <a href="index.html" id="Home">Home</a>
+        <a href="about.html" id="About">About</a> 
+        <a href="contact.html" id="Contact">Contact</a>
+    </div>
+
+    <div class="middle">
+        <button class="google"><a href="https://www.google.com/">Google</a></button>
+        <a href="https://www.youtube.com/"><button class="yt">Youtube</button></a>
+        <button class="github"><a href="https://github.com/cedrin2205">Github</a></button>
+        <button class="school"><a href="https://www.uc-bcf.edu.ph/">School website</a></button>
+    </div>
+        
 </body>
 </html>
