@@ -1,16 +1,17 @@
-h1{
+.heading {
     color: darkblue;
 }
 
-body{
+.lab1style {
     background-color: lightgray;
 }
 
-body{
+.lab1style {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 }
 
-p {
+.answer {
     font-size: 16px;
 }
+
